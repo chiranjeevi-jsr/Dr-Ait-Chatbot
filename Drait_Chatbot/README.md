@@ -1,6 +1,6 @@
 # 🧠 DRAIT Chatbot (Python CLI)
 
-This is a simple command-line chatbot built with Python that answers common questions about the **DRAIT (Dayananda Sagar Academy of Technology and Management)** website. The bot uses predefined rules to provide relevant information such as website links, admission details, contact information, and more.
+This is a simple command-line chatbot built with Python that answers common questions about the **DR AIT** website. The bot uses predefined rules to provide relevant information such as website links, admission details, contact information, and more.
 
 ---
 
