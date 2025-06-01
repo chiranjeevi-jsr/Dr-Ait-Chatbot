@@ -1,10 +1,3 @@
-# 🧠 DRAIT Chatbot (Python CLI)
-
-This is a simple command-line chatbot built with Python that answers common questions about the **DRAIT ** website. The bot uses predefined rules to provide relevant information such as website links, admission details, contact information, and more.
-
----
-
-
 This project was contributed by
 
 1DA21IS014 Chiranjeevi S
@@ -12,37 +5,99 @@ This project was contributed by
 1DA21IS062 Nishal H N
 1DA21IS027 M Sreyas Krishna
 
-## 📂 Project Structure
-
-File structure
-drait-chatbot/
-├── index.html # Main html file
-├── style.css # Style cascading file
-├── script.js # Functionality Script
-├── chatbot.py # Main chatbot script
-└── README.md # Project documentation
-
 
 ---
 
-## 🚀 Features
+## 🎯 Features
 
-- Responds to basic questions about DRAIT
-- Static rule-based chatbot (no external APIs or ML)
-- Command-line interface
-- Lightweight and beginner-friendly
+- Clean and modern user interface
+- Chat-style messaging for bot and user
+- Predefined rich responses to hundreds of queries
+- Scrollable message window and auto-scroll
+- Extendable to real-time Dialogflow/NLP integration
 
 ---
 
-## 💻 How to Run
+## 🚀 Getting Started
 
 ### Requirements
-- Python 3.x installed on your machine
 
-### Run the chatbot
+- No server or special dependencies required
+- Any modern web browser (Chrome, Firefox, Edge, etc.)
 
-```bash
-python chatbot.py
+### How to Run
+
+1. Download or clone this repository.
+2. Open the file `index.html` in your browser.
+3. Type a question in the input field and click **Send**.
+
+✅ The chatbot will respond with appropriate answers based on your query.
+
+---
+
+## 🛠 Technologies Used
+
+| Technology   | Purpose                                    |
+|--------------|---------------------------------------------|
+| HTML         | Structure of the chat interface             |
+| CSS          | Styling and layout                          |
+| JavaScript   | Handling user input and bot responses       |
+| Dialogflow ES (optional) | AI-based backend for NLP/chatbot engine |
+
+---
+
+## 🔗 Future Integration with Dialogflow
+
+To connect this UI with Dialogflow ES:
+
+1. Create an agent in [Dialogflow ES](https://dialogflow.cloud.google.com/).
+2. Enable **fulfillment** (optional) for dynamic responses via webhook.
+3. Use Dialogflow's REST API or JavaScript SDK to send user input and receive responses.
+4. Replace the logic in `respondToMessage()` inside `script.js` with API call to Dialogflow.
+
+---
+
+## 📦 Deployment
+
+To deploy this chatbot UI online:
+
+1. **GitHub Pages**:
+   - Push your code to GitHub
+   - Enable GitHub Pages from the repo settings
+
+2. **Firebase Hosting**:
+   - Install Firebase CLI
+   - Run `firebase init` and select `hosting`
+   - Deploy with `firebase deploy`
+
+3. **Netlify / Vercel**:
+   - Drag and drop your folder or link a GitHub repo
+
+---
+
+## 📌 Example Questions to Try
+
+- "What is the admission process?"
+- "Where is the college located?"
+- "Does DRAIT offer MBA?"
+- "Tell me about placements"
+- "Who is the principal?"
+
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome! You can:
+
+- Add more questions and responses in `script.js`
+- Enhance UI/UX with animations or themes
+- Integrate with live Dialogflow agent
+- Add voice-to-text or multilingual support
+
+---
+
+
+
 
 
 DRAIT Chatbot 🤖
